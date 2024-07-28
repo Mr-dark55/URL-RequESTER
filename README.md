@@ -55,7 +55,6 @@ python SQLi_Sleeps2.py -u urls.txt -d data.txt -t 10 -o target.txt
 
 
 
-This `README.md` file provides a clear and comprehensive overview of your tool, including its features, installation instructions, usage guidelines, command-line arguments, example command, output details, and contribution information.
 
 
 
