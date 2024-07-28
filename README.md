@@ -18,6 +18,24 @@ URL Requester is an advanced multi-protocol request tool designed for performing
 ## Installation
 
 ```sh
-git clone https://github.com/yourusername/url-requester.git
+git clone https://github.com/Mr-dark55/URL-RequESTER/
 cd URL-RequESTER/
 pip install -r requirements.txt
+
+
+
+Command-line Arguments
+
+    -u, --urls: Text file containing URLs to send requests to.
+    -d, --data: Text file containing data to be sent with the requests.
+    -m, --method: HTTP method to use (default: GET).
+    -c, --cookie: Cookie to include in the request.
+    -t, --threads: Number of concurrent threads to use (default: 10).
+    -o, --output: Output file name for results.
+    -f, --format: Output format (csv, json, xml) (default: csv).
+    -p, --proxies: Text file containing a list of proxies.
+    --headers: JSON file containing additional headers.
+    --no-verify-ssl: Disable SSL certificate verification.
+
+
+
