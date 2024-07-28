@@ -21,10 +21,13 @@ URL Requester is an advanced multi-protocol request tool designed for performing
 git clone https://github.com/Mr-dark55/URL-RequESTER/
 cd URL-RequESTER/
 pip install -r requirements.txt
+```
+
 
 
 ##Command-line Arguments
 
+```sh
     -u, --urls: Text file containing URLs to send requests to.
     -d, --data: Text file containing data to be sent with the requests.
     -m, --method: HTTP method to use (default: GET).
@@ -35,15 +38,12 @@ pip install -r requirements.txt
     -p, --proxies: Text file containing a list of proxies.
     --headers: JSON file containing additional headers.
     --no-verify-ssl: Disable SSL certificate verification.
-
+```
 #Example Command
 
-#!/usr/bin/python3
-# code by Mr - Dark
-# twitter @Mr_Dark55
-
+```sh
 python url_requester.py -u urls.txt -d data.txt -m POST -c "session_id=xyz" -t 20 -o results.csv -f csv -p proxies.txt --headers headers.json --no-verify-ssl
-
+```
 
 
 
