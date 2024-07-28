@@ -1,0 +1,9 @@
+argparse
+httpx
+tqdm
+fake_useragent
+colorama
+ratelimit
+pyfiglet
+schedule
+matplotlib
