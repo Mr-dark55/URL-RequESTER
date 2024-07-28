@@ -1,5 +1,5 @@
-#!/usr/bin/python3 
-#code by Mr - Dark 
+# !/usr/bin/python3 
+# code by Mr - Dark 
 # twiter @Mr_Dark55
 
 import argparse
