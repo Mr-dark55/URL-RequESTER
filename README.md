@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 
 
-##Command-line Arguments
+## Command-line Arguments
 
 ```sh
     -u, --urls: Text file containing URLs to send requests to.
@@ -39,7 +39,7 @@ pip install -r requirements.txt
     --headers: JSON file containing additional headers.
     --no-verify-ssl: Disable SSL certificate verification.
 ```
-#Example Command
+## Example Command
 
 ```sh
 python url_requester.py -u urls.txt -d data.txt -m POST -c "session_id=xyz" -t 20 -o results.csv -f csv -p proxies.txt --headers headers.json --no-verify-ssl
