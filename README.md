@@ -42,7 +42,15 @@ pip install -r requirements.txt
 ## Example Command
 
 ```sh
-python url_requester.py -u urls.txt -d data.txt -m POST -c "session_id=xyz" -t 20 -o results.csv -f csv -p proxies.txt --headers headers.json --no-verify-ssl
+python SQLi_Sleeps2.py -u urls.txt -d data.txt -m POST -c "session_id=xyz" -t 20 -o results.csv -f csv -p proxies.txt --headers headers.json --no-verify-ssl
+
+```
+or
+
+```sh
+
+python SQLi_Sleeps2.py -u urls.txt -d data.txt -t 10 -o target.txt
+
 ```
 
 
