@@ -23,8 +23,7 @@ cd URL-RequESTER/
 pip install -r requirements.txt
 
 
-
-Command-line Arguments
+##Command-line Arguments
 
     -u, --urls: Text file containing URLs to send requests to.
     -d, --data: Text file containing data to be sent with the requests.
@@ -36,6 +35,21 @@ Command-line Arguments
     -p, --proxies: Text file containing a list of proxies.
     --headers: JSON file containing additional headers.
     --no-verify-ssl: Disable SSL certificate verification.
+
+#Example Command
+
+#!/usr/bin/python3
+# code by Mr - Dark
+# twitter @Mr_Dark55
+
+python url_requester.py -u urls.txt -d data.txt -m POST -c "session_id=xyz" -t 20 -o results.csv -f csv -p proxies.txt --headers headers.json --no-verify-ssl
+
+
+
+
+This `README.md` file provides a clear and comprehensive overview of your tool, including its features, installation instructions, usage guidelines, command-line arguments, example command, output details, and contribution information.
+
+
 
 
 
